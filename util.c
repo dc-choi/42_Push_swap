@@ -1,25 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.c                                        :+:      :+:    :+:   */
+/*   util.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: donchoi <donchoi@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/11 15:02:20 by donchoi           #+#    #+#             */
-/*   Updated: 2022/06/11 15:02:20 by donchoi          ###   ########.fr       */
+/*   Created: 2022/06/14 22:49:41 by donchoi           #+#    #+#             */
+/*   Updated: 2022/06/14 22:49:41 by donchoi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
-
-int	main(int argc, char *argv[])
+void	error_exit(void)
 {
-	t_list	*a;
-	t_list	*b;
-
-	if (argc != 2)
-		exit(0);
-	a = list_init(argv[1]);
-	push_swap(a, b);
-	exit(0);
+	ft_putendl_fd("Error", 1);
+	exit(1);
 }

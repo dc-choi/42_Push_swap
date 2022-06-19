@@ -17,6 +17,11 @@ CFLAGS = -Wall -Wextra -Werror
 RM = rm -f
 
 FILES = push_swap \
+		command_p \
+		command_r \
+		command_rr \
+		command_s \
+		util \
 
 SRCS_DIR = ./
 SRCS = $(addprefix $(SRCS_DIR), $(addsuffix .c, $(FILES)))
