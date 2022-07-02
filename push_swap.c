@@ -18,7 +18,7 @@ int	main(int argc, char *argv[])
 	t_list	*b;
 
 	if (argc != 2)
-		exit(0);
+		error_exit();
 	a = list_init(argv[1]);
 	push_swap(a, b);
 	exit(0);

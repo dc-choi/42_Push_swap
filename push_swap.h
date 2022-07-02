@@ -16,6 +16,9 @@
 # include <stdio.h>
 # include "libft/libft.h"
 
+void	list_init(char *str);
+void	push_swap(t_list *a, t_list *b);
+
 void	pa(t_list **a, t_list **b);
 void	pb(t_list **a, t_list **b);
 int		ra(t_list **a);
@@ -27,5 +30,7 @@ void	rrr(t_list **a, t_list **b);
 void	sa(t_list **a);
 void	sb(t_list **b);
 void	ss(t_list **a, t_list **b);
+
+void	error_exit(void);
 
 #endif

@@ -17,6 +17,7 @@ CFLAGS = -Wall -Wextra -Werror
 RM = rm -f
 
 FILES = push_swap \
+		list_init \
 		command_p \
 		command_r \
 		command_rr \
